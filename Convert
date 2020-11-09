@@ -1,0 +1,35 @@
+<title>Currency Converter</title>>
+
+</head>
+<body>
+<div id="box">
+<h2>Currency Converter</h2>
+<table>
+    <tr><td><input id="fromAmount" type="text"/></td>
+    <select id="from">
+        <option value="AUD">Australion Dollar (AUD)</option>
+        <option value="BNG">Bulgarian Lev (BGN)</option>
+        <option value="CAD">Canadain Dollar (CAD)</option>
+        <option value="CHF">Swiss franc (CHF)</option>
+        <option value="GBP" selected>Pound sterling (GBP)</option>
+        <option value="JPY">Japanese yen (JPY)</option>
+        <option value="USD">United States Dollar (USD)</option>
+    </select>
+    </td>
+</tr>
+<tr><td><input id="ToAmount" type="text"/></td>
+    <select id="to">
+        <option value="AUD">Australion Dollar (AUD)</option>
+        <option value="BNG">Bulgarian Lev (BGN)</option>
+        <option value="CAD">Canadain Dollar (CAD)</option>
+        <option value="CHF">Swiss franc (CHF)</option>
+        <option value="GBP" selected>Pound sterling (GBP)</option>
+        <option value="JPY">Japanese yen (JPY)</option>
+        <option value="USD">United States Dollar (USD)</option>
+    </select>
+    </td>
+</tr>
+</table>
+</div>
+
+</body>
