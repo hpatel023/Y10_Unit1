@@ -14,11 +14,16 @@ body {
   background-color: black;
   color: white;
 }
+
+.beige-mode {
+  background-color: beige;
+  color: black;
+}
 </style>
 </head>
 <body>
 
-<h2>Light and Dark Mode Test</h2>
+<h2>Toggle Modes Test</h2>
 
 <button onclick="myFunction()">Toggle dark mode</button>
 
@@ -26,6 +31,15 @@ body {
 function myFunction() {
    var element = document.body;
    element.classList.toggle("dark-mode");
+}
+</script>
+
+<button onclick="myFunction1()">Toggle beige mode</button>
+
+<script>
+function myFunction1() {
+   var element1 = document.body;
+   element1.classList.toggle("beige-mode");
 }
 </script>
 
